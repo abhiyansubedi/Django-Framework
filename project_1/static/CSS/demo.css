@@ -1,0 +1,41 @@
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the main content */
+  main {
+    padding: 20px;
+  }
+  
+  /* Style the paragraph inside main */
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  /* Style the box */
+  .box {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Style the footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  

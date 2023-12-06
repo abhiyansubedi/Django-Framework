@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <body>
+            <h1>Sum Calculator</h1>
+            
+            <form method="post" >
+                {% csrf_token %}
+              <label for="num1">Number 1:</label>
+              <input type="text"  name="num1" value="{{n1}}"><br><br>
+              
+              <label for="num2">Number 2:</label>
+              <input type="text"  name="num2" value="{{n2}}"><br><br>
+              
+              <div>
+                <button type="submit">Save</button>
+              </div>
+            
+            
+            output
+            <input type="text" value="{{output}}">
+            </form>
+          </body>
+          </html>

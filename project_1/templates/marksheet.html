@@ -1,0 +1,40 @@
+{% include "header.html" %}
+<html>
+
+    <head>
+        <title> Calculator</title>
+    </head>
+    <body>
+        <div class="row">
+            <form method="post">
+                {% csrf_token %}
+                <label>Subject 1 </label>
+                <input type="text" name="sub1" class="form-control">
+                <br>
+                <label>Subject 2 </label>
+                <input type="text" name="sub2" class="form-control">
+                <br>
+                <label>Subject 3 </label>
+                <input type="text" name="sub3" class="form-control">
+                <br>
+                <label>Subject 4 </label>
+                <input type="text" name="sub4" class="form-control">
+                <br>
+                <label>Subject 5 </label>
+                <input type="text" name="sub5" class="form-control">
+                <br>
+                <button type="submit">Marksheet</button>
+                <br>
+                <label>Total</label>
+                <input type="text" value="{{t}}" class="form-control">
+                <br>
+                <label>Percentage</label>
+                <input type="text" value="{{p}}" class="form-control">
+                <br>
+                <label>Division</label>
+                <input type="text" value="{{d}}" class="form-control">
+
+            </form>
+        </div>
+    </body>
+    </html>
